@@ -1,0 +1,6 @@
+digitalx_direct.py is a simple python wrapper for interacting with the DigitalX Direct ReST API
+for ordering bitcoins and retrieving BTC quote information. It requires a DigitalX Direct account, 
+you can request a test account by emailing neel@digitalbtc.com. 
+
+Please direct any questions about the code or the DigitalX Direct Bitcoin Liquidity Platform
+to neel@digitalbtc.com as well. 
