@@ -1,14 +1,13 @@
 #!/usr/bin/env python
 
 '''This module interacts with the digitalX Direct liquidity provision API located at https://api.direct.digitalx.com/v0.
-   Please direct any questions or concerns to neel@digitalbtc.com'''
+   Please direct any questions or concerns to neel@digitalx.com'''
 
 import httplib
 import hashlib
 import hmac
 import json
 import base64
-import datetime
 import time
 
 
@@ -99,7 +98,6 @@ def get_invoice():
     return info
 
 def get_transaction(name, tx_id):
-    t = datetime.datetime.now()
     params = {}
     params['method'] = 'transaction'
     params['nonce'] = int(time.time())
